@@ -1,5 +1,5 @@
-#Services and Background Tasks
-##October 17, 2017
+# Services and Background Tasks
+## October 17, 2017
 Dylan Berry presents how to execute background tasks in iOS and Android.
 
 Sponsored by: BSI Labs - Enterprise Mobile Done Right. https://bsilabs.ca
