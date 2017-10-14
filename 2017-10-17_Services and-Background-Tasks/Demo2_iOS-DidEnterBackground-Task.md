@@ -1,4 +1,4 @@
-# Demo 1 : iOS - Register Long Running Task
+# Demo 2 : iOS - DidEnterBackground Tasks
 ## Setup
 Create Project
 * Visual Studio for Mac
@@ -6,7 +6,7 @@ Create Project
 * iOS > App > Single View App > Next
 
 Configure iOS App
-* App Name: LongRunningTask
+* App Name: DidEnterBackgroundTask
 * Org ID: com.tomobiledevs
 * Team: Canadian Project Partners
 * Devices: iPhone
@@ -16,32 +16,17 @@ Configure Single View App
 * Keep defaults
 
 ## Task 1 - Implement Basic Background Task
-* Open ViewController.cs
+* Open AppDelegate.cs
 
 ```cs
 
-        public override void ViewDidLoad()
+        public override void DidEnterBackground (UIApplication application)
         {
-            base.ViewDidLoad();
-            
-            var btn = UIButton.FromType (UIButtonType.System);
-            btn.Frame = new CGRect (20, 200, 280, 44);
-            btn.SetTitle ("Run Custom Task", UIControlState.Normal);
-            btn.TouchUpInside += (sender, e) => {
-                RunCustomTask();
-            };
-            View.AddSubview (btn);
-        }
-
-        void RunCustomTask()
-        {
-            Console.WriteLine ("Running custom task");
-            nint taskID = UIApplication.SharedApplication.BeginBackgroundTask( () => {}); 
-            
-            //runs on main or background thread
-            LongRunningTask(taskID);
-
-            UIApplication.SharedApplication.EndBackgroundTask(taskID);
+            nint taskID = UIApplication.SharedApplication.BeginBackgroundTask( () => {});
+            Task.Run( () => {
+                LongRunningTask(taskID);
+                UIApplication.SharedApplication.EndBackgroundTask(taskID);
+            });
         }
 
         void LongRunningTask (nint taskID)
@@ -64,11 +49,10 @@ Configure Single View App
 
 ```
 * Add usings
+  * System
   * System.Threading
+  * System.Threading.Tasks
   * CoreGraphics
 * Run
-* Click button
-* Examine Application Output
-* Click button
 * Return to home
 * Examine Application Output
