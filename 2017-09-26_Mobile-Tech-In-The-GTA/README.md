@@ -3,6 +3,8 @@
 
 Dylan Berry presents his view on what it takes to deliver mobile technology and the specific challenges in the Canadian market.
 
+Video recording: https://youtu.be/cct_v-01-lg
+
 Sponsored by: BSI Labs - Enterprise Mobile Done Right. https://bsilabs.ca
 
 https://www.meetup.com/TorontoMobileDevelopers/
