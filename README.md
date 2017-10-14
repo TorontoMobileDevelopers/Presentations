@@ -4,13 +4,13 @@
 
 Dylan Berry presents his view on what it takes to deliver mobile technology and the specific challenges in the Canadian market.
 
-[Slides](Presentations/2017-09-26_Mobile-Tech-In-The-GTA/Mobile Tech in the GTA.pptx)
+[Slides](https://github.com/TorontoMobileDevelopers/Presentations/blob/master/2017-09-26_Mobile-Tech-In-The-GTA/Mobile%20Tech%20in%20the%20GTA.pptx)
 
 [Video Recording](https://youtu.be/cct_v-01-lg)
 
 ## October 17, 2017: Services and Background Tasks
 
-Dylan Berry presents how to execute tasks in the background in iOS and Android.
+Dylan Berry presents how to execute background tasks in iOS and Android.
 
 
 # [Toronto Mobile .NET Developers Group](https://www.meetup.com/TorontoMobileDevelopers/)
