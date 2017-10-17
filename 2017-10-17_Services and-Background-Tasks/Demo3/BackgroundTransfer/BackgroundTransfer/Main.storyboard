@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="618" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="852" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
+                                        <rect key="frame" x="91" y="86" width="261" height="270"/>
+                                        <constraints>
+                                            <constraint id="880" firstAttribute="width" secondItem="852" secondAttribute="height" multiplier="1:1"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint id="849" firstAttribute="width" constant="600"/>
+                                    <constraint id="850" firstAttribute="height" constant="600"/>
+                                    <constraint id="851" firstAttribute="width" secondItem="618" secondAttribute="height" multiplier="1:1"/>
+                                    <constraint id="855" firstItem="852" firstAttribute="leading" secondItem="618" secondAttribute="leading"/>
+                                    <constraint id="857" firstItem="852" firstAttribute="top" secondItem="618" secondAttribute="top"/>
+                                    <constraint id="878" firstItem="852" firstAttribute="bottom" secondItem="618" secondAttribute="bottom"/>
+                                    <constraint id="879" firstItem="852" firstAttribute="trailing" secondItem="618" secondAttribute="trailing"/>
+                                </constraints>
+                            </scrollView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="193">
+                                <rect key="frame" x="224" y="298" width="150" height="2"/>
+                                <constraints>
+                                    <constraint id="196" firstAttribute="width" constant="150"/>
+                                </constraints>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="594" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="277" y="242" width="46" height="30"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="StartButton_TouchUpInside:" destination="BYZ-38-t0r" id="606" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="608" firstItem="594" firstAttribute="width" constant="46"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="194" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="193" secondAttribute="centerY" constant="1"/>
+                            <constraint id="195" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="193" secondAttribute="centerX" constant="1"/>
+                            <constraint id="602" firstItem="594" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="603" firstItem="193" firstAttribute="top" secondItem="594" secondAttribute="bottom" constant="26"/>
+                            <constraint id="604" firstItem="594" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222"/>
+                            <constraint id="847" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="618" secondAttribute="trailing"/>
+                            <constraint id="848" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="618" secondAttribute="bottom"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressView" destination="193" id="name-outlet-193"/>
+                        <outlet property="startButton" destination="594" id="name-outlet-594"/>
+                        <outlet property="imageView" destination="852" id="name-outlet-852"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

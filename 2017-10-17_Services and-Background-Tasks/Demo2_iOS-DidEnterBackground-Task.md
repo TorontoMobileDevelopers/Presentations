@@ -22,7 +22,10 @@ Configure Single View App
 
         public override void DidEnterBackground (UIApplication application)
         {
-            nint taskID = UIApplication.SharedApplication.BeginBackgroundTask( () => {});
+            nint taskID = 0;
+            Console.WriteLine ("App entering background state.");
+
+            taskID = UIApplication.SharedApplication.BeginBackgroundTask(() => {});
             Task.Run( () => {
                 LongRunningTask(taskID);
                 UIApplication.SharedApplication.EndBackgroundTask(taskID);
@@ -56,3 +59,32 @@ Configure Single View App
 * Run
 * Return to home
 * Examine Application Output
+
+## Task 2 - Handle Background Task Timeout
+* Modify AppDelegate.DidEnterBackground
+
+```cs
+
+        public override void DidEnterBackground (UIApplication application)
+        {
+            nint taskID = 0;
+            Console.WriteLine ("App entering background state.");
+            
+            taskID = UIApplication.SharedApplication.BeginBackgroundTask(() =>
+            {
+                Console.WriteLine("Background task timed out.");
+                // Do teardown work
+                UIApplication.SharedApplication.EndBackgroundTask(taskID);
+            });
+            Task.Run(() =>
+            {
+                LongRunningTask(taskID);
+                UIApplication.SharedApplication.EndBackgroundTask(taskID);
+            });
+        }
+
+```
+* Increase Thread.Sleep to 300000ms (5 minutes)
+* Run
+* Return to home
+* Examin Application Output after 3 minutes
