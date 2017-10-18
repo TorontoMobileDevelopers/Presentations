@@ -35,13 +35,15 @@ Configure Single View App
 
         void RunCustomTask()
         {
-            Console.WriteLine ("Running custom task");
-            nint taskID = UIApplication.SharedApplication.BeginBackgroundTask( () => {}); 
+            Console.WriteLine ("Running custom task"); 
             
             //runs on main or background thread
-            LongRunningTask(taskID);
-
-            UIApplication.SharedApplication.EndBackgroundTask(taskID);
+            Task.Run(() =>
+            {
+                nint taskID = UIApplication.SharedApplication.BeginBackgroundTask( () => {});
+                LongRunningTask(taskID);
+                UIApplication.SharedApplication.EndBackgroundTask(taskID);
+            });
         }
 
         void LongRunningTask (nint taskID)
