@@ -1,5 +1,19 @@
 # Presentations
 
+## November 21, 2017: The Importance of Social Login
+
+Daniel John Causer and Luis Pulido present which options we have to implement social login on Xamarin projects, and share some of their experiences building Xamarin Apps with Facebook and Google.
+
+[Slides](https://github.com/TorontoMobileDevelopers/Presentations/blob/master/2017-10-17_Services%20and-Background-Tasks/Services%20and%20Background%20Tasks.pptx)
+
+[Video Recording](https://youtu.be/nhFHljhQFgY)
+
+## October 17, 2017: Services and Background Tasks
+
+Dylan Berry presents how to execute background tasks in iOS and Android.
+
+[Slides](https://github.com/TorontoMobileDevelopers/Presentations/blob/master/2017-10-17_Services%20and-Background-Tasks/Services%20and%20Background%20Tasks.pptx)
+
 ## September 26, 2017: Mobile Tech In The GTA
 
 Dylan Berry presents his view on what it takes to deliver mobile technology and the specific challenges in the Canadian market.
@@ -7,10 +21,6 @@ Dylan Berry presents his view on what it takes to deliver mobile technology and 
 [Slides](https://github.com/TorontoMobileDevelopers/Presentations/blob/master/2017-09-26_Mobile-Tech-In-The-GTA/Mobile%20Tech%20in%20the%20GTA.pptx)
 
 [Video Recording](https://youtu.be/cct_v-01-lg)
-
-## October 17, 2017: Services and Background Tasks
-
-Dylan Berry presents how to execute background tasks in iOS and Android.
 
 
 # [Toronto Mobile .NET Developers Group](https://www.meetup.com/TorontoMobileDevelopers/)

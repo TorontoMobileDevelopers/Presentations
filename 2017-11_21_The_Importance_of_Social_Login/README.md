@@ -1,8 +1,10 @@
-# The impotance of Social Login
+# The Importance of Social Login
 ## November 21, 2017
-Daniel John Causer and Luis Pulido presents which options we have to implement social login on Xamarin projects, and share some of their experiences building Xamarin Apps with Facebook and google.
+Daniel John Causer and Luis Pulido present which options we have to implement social login on Xamarin projects, and share some of their experiences building Xamarin Apps with Facebook and Google.
 
-- Presentation of our selfs
+[Video Recording](https://youtu.be/nhFHljhQFgY)
+
+- About Us
 - Social Networks
   - From Facebook alone, today there are over 2 bilion people, show researches from [Aug 2017](http://mashable.com/2017/08/07/3-billion-global-social-media-users/#SK00WpYPsaqW).
   - Google (Youtube, Gmail, G+, etc...)
