@@ -1,4 +1,10 @@
 # Presentations
+## February 20, 2018: Mobile Offline Sync
+Dylan Berry presents the importance of Mobile Offline Sync and how you can get started with offline capabilities in your apps.
+
+Offline-first mobile apps significantly improve the user experience and overall usefulness of apps. We will discuss approaches and tools to help you build offline functionality into your apps.
+
+[Slides](https://github.com/TorontoMobileDevelopers/Presentations/blob/master/2018-02-20_Mobile_Offline_Sync/2018-02-20_Mobile_Offline_Sync.pptx)
 
 ## November 21, 2017: The Importance of Social Login
 
