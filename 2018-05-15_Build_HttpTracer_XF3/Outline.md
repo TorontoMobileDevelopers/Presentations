@@ -1,6 +1,7 @@
 # Microsoft Build 2018
 
 # HttpTracer
+https://github.com/TorontoMobileDevelopers/HttpTracer
 
 # Xamarin Forms 3.0
 
@@ -27,3 +28,35 @@
 
 https://blog.xamarin.com/update-to-xamarin-forms-3-0-pre-release-available-today/
 https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.0/3.0.0-pre3/
+
+
+## Loading Sample Apps
+
+
+## Visual State Manager
+* Allows for predefined states to be attached to a control (`Visual Element`)
+```cs
+var stateGroup = new VisualStateGroup{ Name = "ResultState", TargetType = typeof(Label) };
+stateGroup.States.Add(CreateState("Success", "Great Success!", Color.Green));
+stateGroup.States.Add(CreateState("Success", "Oh no! Everything is broken!", Color.Red));
+
+static VisualState CreateState(string name, string text, Color color)
+{
+    var textSetter = new Setter { Value = text, Property = Label.TextProperty };
+    var colorSetter = new Setter { Value = color, Property = Label.TextColorProperty };
+
+    return new VisualState { Name = name, TargetType = typeof(Label), Setters = { textSetter, colorSetter } };
+}
+```
+* State can be changed by calling `VisualStateManager.GotoState(myLabel, "Success");`
+
+
+## FlexLayout
+* New Layout inspired by css FlexBox
+* Has the potential to replace Grid (and StackLayout) in most cases
+* Less markup than Grid to acheive the same result
+
+## CSS
+* Finally a DSL for style
+* Reuse styling between web and mobile
+* Apply multiple `StyleClass` to elements
