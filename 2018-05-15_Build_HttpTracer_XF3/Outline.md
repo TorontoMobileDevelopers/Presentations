@@ -2,6 +2,7 @@
 
 # HttpTracer
 https://github.com/TorontoMobileDevelopers/HttpTracer
+https://www.nuget.org/packages/HttpTracer/
 
 # Xamarin Forms 3.0
 
@@ -23,6 +24,9 @@ https://github.com/TorontoMobileDevelopers/HttpTracer
 | x:Bind                            | Compiled bindings using the same syntax you get in UWP.                                                                                                      | Planned    |
 
 ## Highlights
+* Performance??? (were fast renderers pushed into XF 2.5)
+* More supported platforms (macOS, Linux, WPF, Tizen)
+* Embedding improvements with Fragments??? (was this pushed in XF 2.5)
 * CSS
 * FlexLayout
 * Visual State Manager
@@ -56,8 +60,10 @@ static VisualState CreateState(string name, string text, Color color)
 * New Layout inspired by css FlexBox
 * Has the potential to replace Grid (and StackLayout) in most cases
 * Less markup than Grid to acheive the same result
+* A solid understanding of FlexBox will accelerate FlexLayout learning curve
 
 ## CSS
 * Finally a DSL for style
 * Reuse styling between web and mobile
 * Apply multiple `StyleClass` to elements
+* TODO: Tooling supports SCSS (Sass - pre-processed styles)
