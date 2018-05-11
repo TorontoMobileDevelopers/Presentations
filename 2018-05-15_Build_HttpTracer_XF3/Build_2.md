@@ -222,6 +222,8 @@ Networking
 * json sucks, very slow
 * binary json
 * protocol buffers
+    * https://github.com/mgravell/protobuf-net
+    * https://developers.google.com/protocol-buffers/docs/csharptutorial
 
 New on the platforms
 * iOS - full static startup
