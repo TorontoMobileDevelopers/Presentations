@@ -122,6 +122,7 @@
 * FlexLayout
 * Visual State Manager
 * Live Reload
+* 500+ bug fixes/improvements
 
 ### Links
 * https://blog.xamarin.com/update-to-xamarin-forms-3-0-pre-release-available-today/
