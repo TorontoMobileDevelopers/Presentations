@@ -1,8 +1,21 @@
 # Microsoft Build 2018
 
 # HttpTracer
-https://github.com/TorontoMobileDevelopers/HttpTracer
-https://www.nuget.org/packages/HttpTracer/
+* What is the HttpTracer library
+* Motivation
+  * Easy to setup
+  * Share usefull tools with the community
+* Demo of log dumping console / File.
+* Improvements
+  * Cover types of requests like media
+  * Customise log text (simple, complex)
+  * Make Visual studio extensions (Fiddler alike)
+* Call for more contributors and tools
+  * Come create repos under Toronto meetup github :)
+
+### Links
+* https://github.com/TorontoMobileDevelopers/HttpTracer
+* https://www.nuget.org/packages/HttpTracer/
 
 # Xamarin Forms 3.0
 
@@ -30,13 +43,15 @@ https://www.nuget.org/packages/HttpTracer/
 * CSS
 * FlexLayout
 * Visual State Manager
+* Live Reload
 
-https://blog.xamarin.com/update-to-xamarin-forms-3-0-pre-release-available-today/
-https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.0/3.0.0-pre3/
+### Links
+* https://blog.xamarin.com/update-to-xamarin-forms-3-0-pre-release-available-today/
+* https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.0/3.0.0-pre3/
 
 
 ## Loading Sample Apps
-
+* https://github.com/Microsoft/ConferenceVision
 
 ## Visual State Manager
 * Allows for predefined states to be attached to a control (`Visual Element`)
@@ -54,7 +69,6 @@ static VisualState CreateState(string name, string text, Color color)
 }
 ```
 * State can be changed by calling `VisualStateManager.GotoState(myLabel, "Success");`
-
 
 ## FlexLayout
 * New Layout inspired by css FlexBox
