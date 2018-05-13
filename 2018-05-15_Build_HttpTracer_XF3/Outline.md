@@ -1,6 +1,7 @@
-# Microsoft Build 2018
+# 2018-05-15 HttpTracer/Build/Xamarin.Forms 3.0
 
-# HttpTracer
+## HttpTracer
+
 * What is the HttpTracer library
 * Motivation
   * Easy to setup
@@ -14,12 +15,35 @@
   * Come create repos under Toronto meetup github :)
 
 ### Links
+
 * https://github.com/TorontoMobileDevelopers/HttpTracer
 * https://www.nuget.org/packages/HttpTracer/
 
-# Xamarin Forms 3.0
+## Microsoft Build 2018
 
-## Feature Roadmap as of 2018-02-09
+### Overview
+
+* Privacy
+* Connectivity
+* Empathy & Accessibility
+* Azure
+  * Azure Sphere
+  * Azure Stack
+* IoT
+  * IoT Edge
+* AI
+  * Cognitive services
+* Empowering Developers
+* Microsoft 365
+
+### Personal Experience
+
+### Announcements
+
+## Xamarin Forms 3.0
+
+### Feature Roadmap as of 2018-02-09
+
 [Xamarin Forms Feature Roadmap](https://github.com/xamarin/Xamarin.Forms/wiki/Feature-Roadmap)
 
 | **Feature**                       | **Description**                                                                                                                                              | **Status** |
@@ -36,7 +60,8 @@
 | WP8/8.1 Removed                   | Removed in this version. To allow .NET Standard 2.0 and to improve performance.                                                                              | Complete   |
 | x:Bind                            | Compiled bindings using the same syntax you get in UWP.                                                                                                      | Planned    |
 
-## Highlights
+### Highlights
+
 * Performance??? (were fast renderers pushed into XF 2.5)
 * More supported platforms (macOS, Linux, WPF, Tizen)
 * Embedding improvements with Fragments??? (was this pushed in XF 2.5)
@@ -50,10 +75,10 @@
 * https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.0/3.0.0-pre3/
 
 
-## Loading Sample Apps
+### Loading Sample Apps
 * https://github.com/Microsoft/ConferenceVision
 
-## Visual State Manager
+### Visual State Manager
 * Allows for predefined states to be attached to a control (`Visual Element`)
 ```cs
 var stateGroup = new VisualStateGroup{ Name = "ResultState", TargetType = typeof(Label) };
@@ -70,7 +95,7 @@ static VisualState CreateState(string name, string text, Color color)
 ```
 * State can be changed by calling `VisualStateManager.GotoState(myLabel, "Success");`
 
-## FlexLayout
+### FlexLayout
 * New Layout inspired by css FlexBox
 * Has the potential to replace Grid (and StackLayout) in most cases
 * Less markup than Grid to acheive the same result
