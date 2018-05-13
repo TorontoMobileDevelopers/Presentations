@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{AD6D9CE5-CF87-4086-B5F0-545E2654D6C4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HttpTracer.TestApp/ViewModels/MainPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HttpTracer.TestApp/Views/MainPage.xaml">
     <Files>
-      <File FileName="HttpTracer.TestApp/ViewModels/MainPageViewModel.cs" Line="32" Column="45" />
+      <File FileName="HttpTracer.TestApp/ViewModels/MainPageViewModel.cs" Line="26" Column="72" />
+      <File FileName="HttpTracer.TestApp/Views/MainPage.xaml" Line="14" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
