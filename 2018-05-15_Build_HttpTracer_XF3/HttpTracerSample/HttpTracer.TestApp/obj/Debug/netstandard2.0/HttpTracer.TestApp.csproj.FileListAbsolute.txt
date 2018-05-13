@@ -1,0 +1,11 @@
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.csprojResolveAssemblyReference.cache
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.csproj.CoreCompileInputs.cache
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.App.xaml.g.cs
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.Views.MainPage.xaml.g.cs
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.AssemblyInfoInputs.cache
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.AssemblyInfo.cs
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/bin/Debug/netstandard2.0/HttpTracer.TestApp.deps.json
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/bin/Debug/netstandard2.0/HttpTracer.TestApp.dll
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/bin/Debug/netstandard2.0/HttpTracer.TestApp.pdb
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.dll
+/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp/obj/Debug/netstandard2.0/HttpTracer.TestApp.pdb

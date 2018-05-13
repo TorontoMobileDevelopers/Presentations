@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array/>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][3x][][][2d][Icon-App-76x76@3x.png]</string>
+				<string>./AppIcon.appiconset/[][iphone][40x40][][][1x][][][2d][Icon-App-40x40@1x.png]</string>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][1x][][][2d][Icon-App-60x60@1x.png]</string>
+				<string>./AppIcon.appiconset/[][iphone][76x76][][][1x][][][2d][Icon-App-76x76@1x.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/danielcauser/Presentations/2018-05-15_Build_HttpTracer_XF3/HttpTracerSample/HttpTracer.TestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 4 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>
