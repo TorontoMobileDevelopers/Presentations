@@ -23,18 +23,71 @@
 
 ### Overview
 
-* Privacy
+#### Microsoft Ecosystem
+
+* Privacy & Trust
 * Connectivity
 * Empathy & Accessibility
+
 * Azure
   * Azure Sphere
   * Azure Stack
 * IoT
   * IoT Edge
+* Open source
+  * Microsoft is the largest open source contributor on Github
 * AI
   * Cognitive services
+  * AI for Accessibility
+* Bot Framework
+  * QnA Maker
 * Empowering Developers
+* Windows
+  * Sets
 * Microsoft 365
+  * Windows + Office + EMS (Enterprise Mobility + Security)
+  * Graph API
+  * Timeline
+    * iOS - Edge
+    * Android - Launcher/Edge
+
+#### Developer Tools
+
+* Azure Functions
+* Logic Apps
+* Visual Studio Live Share
+* Cosmos DB global performance improvements
+
+##### Visual Studio/VSTS
+
+* Visual Studio 15.7 Performance
+* Ctrl+click to navigate to decompiled code
+  * Vs options > c# > advanced > enable decompiled sources
+* Source link to open source projects to step through open source projects
+* Intellicode - cognitive services parsed GitHub to give you better suggestions
+  * https://www.visualstudio.com/services/intellicode/
+* VSTS Credential Scan build task
+* Azure Key Vault package
+* Debugging
+  * Step back into
+  * Reverse Continue
+* New Android Device Manager + Android SDK Manager
+  * Automatically suggests installs
+* TFVC in preview for VS for Mac
+* .editorconfig support for VS for Mac
+* https://blogs.msdn.microsoft.com/visualstudio/2018/05/07/visual-studio-for-mac-version-7-5-and-beyond/
+
+##### .NET
+
+* .Net is a platform for anything
+* Large growth
+* Net core improvements
+  * Aspnet core
+  * Ef core
+  * Build times 10x faster for 2.1
+* Net core 2 is fast! Runtime performance
+
+##### C#
 
 ### Personal Experience
 
