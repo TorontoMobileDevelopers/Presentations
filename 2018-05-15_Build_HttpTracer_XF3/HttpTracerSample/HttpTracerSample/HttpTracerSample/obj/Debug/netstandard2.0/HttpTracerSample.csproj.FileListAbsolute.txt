@@ -1,0 +1,11 @@
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\bin\Debug\netstandard2.0\HttpTracerSample.deps.json
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\bin\Debug\netstandard2.0\HttpTracerSample.dll
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.csprojResolveAssemblyReference.cache
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.csproj.CoreCompileInputs.cache
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.App.xaml.g.cs
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.Views.MainPage.xaml.g.cs
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.AssemblyInfoInputs.cache
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.AssemblyInfo.cs
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\bin\Debug\netstandard2.0\HttpTracerSample.pdb
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.dll
+C:\Users\danielcauser\source\repos\Presentations\2018-05-15_Build_HttpTracer_XF3\HttpTracerSample\HttpTracerSample\HttpTracerSample\obj\Debug\netstandard2.0\HttpTracerSample.pdb
