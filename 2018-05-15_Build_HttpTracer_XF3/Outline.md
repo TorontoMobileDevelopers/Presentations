@@ -122,6 +122,7 @@
 * FlexLayout
 * Visual State Manager
 * Live Reload
+* 500+ bug fixes/improvements
 
 ### Links
 
