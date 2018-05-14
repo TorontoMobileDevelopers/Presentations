@@ -76,6 +76,7 @@
 * .editorconfig support for VS for Mac
 * Azure functions support in VS for Mac
 * https://blogs.msdn.microsoft.com/visualstudio/2018/05/07/visual-studio-for-mac-version-7-5-and-beyond/
+* C# Interactive improvements
 
 ### .NET
 

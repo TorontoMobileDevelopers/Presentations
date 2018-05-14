@@ -4,7 +4,7 @@
 
 ### Keynote
 
-The Present and Not-too-distant Future of Visual Studio at MS Build 2018.
+### The Present and Not-too-distant Future of Visual Studio at MS Build 2018.
 
 * Huge performance improvements from 15.0 to 15.7
 * Alt+arrows to move selection
@@ -62,5 +62,5 @@ The Present and Not-too-distant Future of Visual Studio at MS Build 2018.
 
 * Xamarin.Forms
 
-* Tfvc for vs Mac - in preview 
-* Coverlet for vs code to measure test coverage 
+* Tfvc for vs Mac - in preview
+* Coverlet for vs code to measure test coverage
