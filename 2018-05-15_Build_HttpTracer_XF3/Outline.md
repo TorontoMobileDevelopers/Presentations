@@ -21,44 +21,43 @@
 
 ## Microsoft Build 2018
 
-### Overview
-
-#### Microsoft Ecosystem
+### Vision
 
 * Privacy & Trust
 * Connectivity
 * Empathy & Accessibility
+* Empowering Developers
+
+### Microsoft Ecosystem
 
 * Azure
   * Azure Sphere
   * Azure Stack
-* IoT
-  * IoT Edge
-* Open source
-  * Microsoft is the largest open source contributor on Github
-* AI
-  * Cognitive services
-  * AI for Accessibility
-* Bot Framework
-  * QnA Maker
-* Empowering Developers
-* Windows
-  * Sets
+  * IoT
+    * IoT Edge
+  * Open source
+    * Microsoft is the largest open source contributor on Github
+  * AI
+    * Cognitive services
+    * AI for Accessibility
+  * Bot Framework
+    * QnA Maker
+  * Cosmos DB global performance improvements
+
 * Microsoft 365
   * Windows + Office + EMS (Enterprise Mobility + Security)
+  * Windows
+    * Sets Contextual app grouping
+    * Fluent design
+    * UWP XAML islands - UWP controls in WPF
+    * Improved screen density
+    * Fluent controls, including data grid
   * Graph API
-  * Timeline
-    * iOS - Edge
-    * Android - Launcher/Edge
+    * Timeline
+      * iOS - Edge
+      * Android - Launcher/Edge
 
-#### Developer Tools
-
-* Azure Functions
-* Logic Apps
-* Visual Studio Live Share
-* Cosmos DB global performance improvements
-
-##### Visual Studio/VSTS
+### Visual Studio/VSTS
 
 * Visual Studio 15.7 Performance
 * Ctrl+click to navigate to decompiled code
@@ -75,9 +74,10 @@
   * Automatically suggests installs
 * TFVC in preview for VS for Mac
 * .editorconfig support for VS for Mac
+* Azure functions support in VS for Mac
 * https://blogs.msdn.microsoft.com/visualstudio/2018/05/07/visual-studio-for-mac-version-7-5-and-beyond/
 
-##### .NET
+### .NET
 
 * .Net is a platform for anything
 * Large growth
@@ -87,11 +87,11 @@
   * Build times 10x faster for 2.1
 * Net core 2 is fast! Runtime performance
 
-##### C#
+### C#
+
+### Xamarin
 
 ### Personal Experience
-
-### Announcements
 
 ## Xamarin Forms 3.0
 
@@ -124,15 +124,20 @@
 * Live Reload
 
 ### Links
+
 * https://blog.xamarin.com/update-to-xamarin-forms-3-0-pre-release-available-today/
 * https://developer.xamarin.com/releases/xamarin-forms/xamarin-forms-3.0/3.0.0-pre3/
 
 
 ### Loading Sample Apps
+
 * https://github.com/Microsoft/ConferenceVision
 
 ### Visual State Manager
+
 * Allows for predefined states to be attached to a control (`Visual Element`)
+* State can be changed by calling `VisualStateManager.GotoState(myLabel, "Success");`
+
 ```cs
 var stateGroup = new VisualStateGroup{ Name = "ResultState", TargetType = typeof(Label) };
 stateGroup.States.Add(CreateState("Success", "Great Success!", Color.Green));
@@ -146,15 +151,16 @@ static VisualState CreateState(string name, string text, Color color)
     return new VisualState { Name = name, TargetType = typeof(Label), Setters = { textSetter, colorSetter } };
 }
 ```
-* State can be changed by calling `VisualStateManager.GotoState(myLabel, "Success");`
 
 ### FlexLayout
+
 * New Layout inspired by css FlexBox
 * Has the potential to replace Grid (and StackLayout) in most cases
 * Less markup than Grid to acheive the same result
 * A solid understanding of FlexBox will accelerate FlexLayout learning curve
 
 ## CSS
+
 * Finally a DSL for style
 * Reuse styling between web and mobile
 * Apply multiple `StyleClass` to elements
