@@ -105,6 +105,9 @@ https://channel9.msdn.com/Events/Build/2018/BRK2100
 * readonly method returns
 * static ref readonly int
 * `Span<T>`
+  * Framework only (no core/standard yet)
+  * Requires pre-release System.Memory Nuget package
+  * [Merge Comflict Episode](http://www.mergeconflict.fm/92)
 * `stackalloc` gives managed access to the stack
 
 #### Future (C# 8.0)
