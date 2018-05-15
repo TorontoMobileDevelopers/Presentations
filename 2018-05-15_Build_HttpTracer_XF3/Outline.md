@@ -78,6 +78,8 @@
 * https://blogs.msdn.microsoft.com/visualstudio/2018/05/07/visual-studio-for-mac-version-7-5-and-beyond/
 * C# Interactive improvements
 
+https://channel9.msdn.com/Events/Build/2018/BRK2100
+
 ### .NET
 
 * .Net is a platform for anything
@@ -90,9 +92,145 @@
 
 ### C#
 
+* Last 12 Months: 7.1, 7.2, 7.3
+* `default` keyword no longer requires a type where it can be implied (`default<T>`)
+* Overload resolution
+* Enum and delegate constraints on generics
+* Unmanaged pointers as generics
+* Unsafe keyword
+* Tuple autonames
+* Equality operators for tuples
+* In parameters for immutable reference
+* return ref
+* readonly method returns
+* static ref readonly int
+* `Span<T>`
+* `stackalloc` gives managed access to the stack
+
+#### Future (C# 8.0)
+
+* Design/compile time null reference checking
+* Reference types non-nullable by default
+	  * https://blogs.msdn.microsoft.com/dotnet/2017/11/15/nullable-reference-types-in-csharp/
+* Switch supports lambda syntax
+* Range operator `^`
+* Async iterators
+* `IAsyncDisposable`
+* Default Interface Members
+* [Slides]
+(https://view.officeapps.live.com/op/view.aspx?src=https%3a%2f%2fak.studios.ms%2fevents%2f2018%2f1805%2fBuild%2fassets%2fBRK2155.pptx)
+
 ### Xamarin
 
+#### Miguel's Advice
+
+* Miguel: "Microsoft developers tend to design interfaces that are suitable to people from another galaxy"
+* UX
+* Speed
+* Metrics
+
+* Customer Retention
+  * 55% of users retained after 1 week
+  * if launched at least once in week 2, 82% retained
+  * <IMG FROM TWITTER>
+
+* Onboarding
+  * Login causes 50% drop off!!!
+  * Intro
+  * Walkthrough
+  * Interstitials for major new features
+  * how to draw people in
+
+* Design
+  * Joel Spolsky - User Interface for Developers https://www.joelonsoftware.com/2001/10/24/user-interface-design-for-programmers/
+  * Microsoft Inclusive Design https://www.microsoft.com/en-us/design/inclusive
+  * Where are people using your app?
+  * How are they using your application (alone/coworkers/crowd/friends+family)
+  * Persona spectrum
+
+* Tools for Design
+  * Paper sketches
+  * Adobe XD
+  * Sketch
+  * InDesign
+
+* Testing
+  * Developers have new, fast phones, users do not
+  * Scenario - 12 second load time
+  * Test on old devices!
+  * Use the profiler - ALWAYS
+
+* Release Builds
+  * Always ship using LLVM Optimizing Compiler (in project options)
+  * On Android, opt for AOT or Hybrid Compilation
+
+* Networking
+  * json sucks, very slow
+  * binary json
+  * protocol buffers
+    * https://github.com/mgravell/protobuf-net
+    * https://developers.google.com/protocol-buffers/docs/csharptutorial
+
+* 10 apps on average per user per day
+* 3 billion active devices
+* 11 billion in Apple app store revenue
+
+#### Developer Experience Improvements
+
+* simplified templates
+* streamlined Mac provisioning (mono, xcode, etc)
+* Android AVD & SDK manager replacements
+* Automatic Android SDK Management
+
+* Much improved Xaml development experience
+* iOS Designer - new size classes support
+* Android Designer - split view (axml + preview), drag/drop, completion
+* Improved dependency tracking - huge build performance improvements
+* Android deployment - Eager deployment (runtime deployed in parallel) saves ~25 seconds of deployment time (~15% for largr apps)
+
+* Android Emulator on Hyper-V
+* Provision a device automatcally in seconds (provisioning profiles, certificates, entitlements)
+
+* Profiler improvements - light allocations mode
+* Profiler snapshot comparisons
+
+
+  New on the platforms
+  * iOS - full static startup
+  * consume less memory, faster startup
+  * faster VS for Mac startup 11s to 7s - think about the impact on mobile
+  * 23-34% improvement on mem usage - same as swift
+  * iOS weak attribute (RESEARCH THIS) - replaces `WeakReference<T>`
+
+  Xamarin Forms 3.0 Released
+  * CSS
+  * Flex Layout
+  * Visual State Manager
+  * Right-to-left language support
+
+  Xamarin Essentials
+  * replaces individual plugins
+
+  Xamarin Forms Project F100
+  * Top 100 annoyances
+
+  Beyond Build 2018
+  * Elmish.XamarinForms - Elm + F# + Xamarin.Forms - similar to react
+  * Ooui - Xamarin forms ASP.NET Core WebAssembly
+  * GraphQL
+  * Xamarin.Forms Shell
+
+https://channel9.msdn.com/Events/Build/2018/BRK2422
+
 ### Personal Experience
+
+* Seattle is a great city
+* Expo floor booths operated by team members
+* Networking opportunities
+* Exposure to new technology
+* Hands on sessions
+* Celebration at Seattle Center/MoPOP
+* Swag!
 
 ## Xamarin Forms 3.0
 

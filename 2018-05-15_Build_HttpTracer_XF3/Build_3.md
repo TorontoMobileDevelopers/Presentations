@@ -95,7 +95,6 @@ https://github.com/Microsoft/ConferenceVision
   * Parsed at runtime
   * supports many properties, but not all
 
-
 * Mac is supported in 3.0
 
 * Telerik is supported
