@@ -21,6 +21,16 @@
 
 ## Microsoft Build 2018
 
+### Personal Experience
+
+* Seattle is a great city
+* Expo floor booths operated by team members
+* Networking opportunities
+* Exposure to new technology
+* Hands on sessions
+* Celebration at Seattle Center/MoPOP
+* Swag!
+
 ### Vision
 
 * Privacy & Trust
@@ -70,13 +80,11 @@
 * Debugging
   * Step back into
   * Reverse Continue
-* New Android Device Manager + Android SDK Manager
-  * Automatically suggests installs
+* C# Interactive improvements
 * TFVC in preview for VS for Mac
 * .editorconfig support for VS for Mac
 * Azure functions support in VS for Mac
 * https://blogs.msdn.microsoft.com/visualstudio/2018/05/07/visual-studio-for-mac-version-7-5-and-beyond/
-* C# Interactive improvements
 
 https://channel9.msdn.com/Events/Build/2018/BRK2100
 
@@ -120,8 +128,9 @@ https://channel9.msdn.com/Events/Build/2018/BRK2100
 * Async iterators
 * `IAsyncDisposable`
 * Default Interface Members
-* [Slides]
-(https://view.officeapps.live.com/op/view.aspx?src=https%3a%2f%2fak.studios.ms%2fevents%2f2018%2f1805%2fBuild%2fassets%2fBRK2155.pptx)
+* Records
+  * `class Person (string firstName, string LastName);`
+* [Build Session](https://channel9.msdn.com/Events/Build/2018/BRK2155)
 
 ### Xamarin
 
@@ -132,23 +141,26 @@ https://channel9.msdn.com/Events/Build/2018/BRK2100
 * Speed
 * Metrics
 
+* 10 apps on average per user per day
+* 3 billion active devices
+* 11 billion in Apple app store revenue
+
 * Customer Retention
+  * Apps must be good from day one!
   * 55% of users retained after 1 week
   * if launched at least once in week 2, 82% retained
-  * <IMG FROM TWITTER>
+  * https://www.braze.com/blog/be-your-customers-ritual-consistent-engagement-results-in-90-audience-retention-after-one-month/
 
 * Onboarding
   * Login causes 50% drop off!!!
-  * Intro
-  * Walkthrough
+  * Intro/Walkthrough
   * Interstitials for major new features
   * how to draw people in
 
 * Design
   * Joel Spolsky - User Interface for Developers https://www.joelonsoftware.com/2001/10/24/user-interface-design-for-programmers/
   * Microsoft Inclusive Design https://www.microsoft.com/en-us/design/inclusive
-  * Where are people using your app?
-  * How are they using your application (alone/coworkers/crowd/friends+family)
+  * Where/how/with whom are people using your app?
   * Persona spectrum
 
 * Tools for Design
@@ -174,66 +186,42 @@ https://channel9.msdn.com/Events/Build/2018/BRK2100
     * https://github.com/mgravell/protobuf-net
     * https://developers.google.com/protocol-buffers/docs/csharptutorial
 
-* 10 apps on average per user per day
-* 3 billion active devices
-* 11 billion in Apple app store revenue
-
 #### Developer Experience Improvements
 
-* simplified templates
-* streamlined Mac provisioning (mono, xcode, etc)
-* Android AVD & SDK manager replacements
-* Automatic Android SDK Management
-
+* Simplified project templates
+* Streamlined Mac provisioning (mono, xcode, etc for VS agent)
+* New Android Device Manager + Android SDK Manager
+  * Automatically suggests installs
 * Much improved Xaml development experience
 * iOS Designer - new size classes support
 * Android Designer - split view (axml + preview), drag/drop, completion
 * Improved dependency tracking - huge build performance improvements
 * Android deployment - Eager deployment (runtime deployed in parallel) saves ~25 seconds of deployment time (~15% for largr apps)
-
 * Android Emulator on Hyper-V
 * Provision a device automatcally in seconds (provisioning profiles, certificates, entitlements)
-
 * Profiler improvements - light allocations mode
 * Profiler snapshot comparisons
 
-
-  New on the platforms
+* New on the platforms
   * iOS - full static startup
   * consume less memory, faster startup
   * faster VS for Mac startup 11s to 7s - think about the impact on mobile
   * 23-34% improvement on mem usage - same as swift
   * iOS weak attribute (RESEARCH THIS) - replaces `WeakReference<T>`
 
-  Xamarin Forms 3.0 Released
-  * CSS
-  * Flex Layout
-  * Visual State Manager
-  * Right-to-left language support
-
-  Xamarin Essentials
+* Xamarin Essentials
   * replaces individual plugins
 
-  Xamarin Forms Project F100
+* Xamarin Forms Project F100
   * Top 100 annoyances
 
-  Beyond Build 2018
+* Beyond Build 2018
   * Elmish.XamarinForms - Elm + F# + Xamarin.Forms - similar to react
   * Ooui - Xamarin forms ASP.NET Core WebAssembly
   * GraphQL
   * Xamarin.Forms Shell
 
 https://channel9.msdn.com/Events/Build/2018/BRK2422
-
-### Personal Experience
-
-* Seattle is a great city
-* Expo floor booths operated by team members
-* Networking opportunities
-* Exposure to new technology
-* Hands on sessions
-* Celebration at Seattle Center/MoPOP
-* Swag!
 
 ## Xamarin Forms 3.0
 
@@ -265,6 +253,7 @@ https://channel9.msdn.com/Events/Build/2018/BRK2422
 * Visual State Manager
 * Live Reload
 * 500+ bug fixes/improvements
+* Community contributions encouraged
 
 ### Links
 
@@ -302,7 +291,7 @@ static VisualState CreateState(string name, string text, Color color)
 * Less markup than Grid to acheive the same result
 * A solid understanding of FlexBox will accelerate FlexLayout learning curve
 
-## CSS
+#### CSS
 
 * Finally a DSL for style
 * Reuse styling between web and mobile
