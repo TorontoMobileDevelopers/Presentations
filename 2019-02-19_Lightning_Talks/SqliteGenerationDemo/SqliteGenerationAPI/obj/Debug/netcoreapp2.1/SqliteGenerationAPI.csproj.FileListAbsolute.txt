@@ -1,0 +1,15 @@
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/bin/Debug/netcoreapp2.1/SqliteGenerationAPI.deps.json
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/bin/Debug/netcoreapp2.1/SqliteGenerationAPI.runtimeconfig.json
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/bin/Debug/netcoreapp2.1/SqliteGenerationAPI.runtimeconfig.dev.json
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/bin/Debug/netcoreapp2.1/SqliteGenerationAPI.dll
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/bin/Debug/netcoreapp2.1/SqliteGenerationAPI.pdb
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.csprojAssemblyReference.cache
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.csproj.CoreCompileInputs.cache
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.RazorAssemblyInfo.cache
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.RazorAssemblyInfo.cs
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.AssemblyInfoInputs.cache
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.AssemblyInfo.cs
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.RazorTargetAssemblyInfo.cache
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.dll
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/obj/Debug/netcoreapp2.1/SqliteGenerationAPI.pdb
+/Users/danielcauser/Projects/Presentations/2019-02-19_Lightning_Talks/SqliteGenerationDemo/SqliteGenerationAPI/bin/Debug/netcoreapp2.1/DataPayload.json

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{BD3AEF0E-A565-43B4-B465-E1DD8F051CC1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SqliteGenerationAPI/Controllers/DataController.cs">
+    <Files>
+      <File FileName="SqliteGenerationAPI/Datas/DataContext.cs" Line="13" Column="55" />
+      <File FileName="SqliteGenerationAPI/Controllers/DataController.cs" Line="25" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SqliteGenerationAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
